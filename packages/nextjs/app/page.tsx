@@ -8,11 +8,9 @@ const Home: NextPage = () => {
       <div className="w-64 bg-base-200 p-5">
         <h2 className="text-xl font-bold mb-5">Menu</h2>
         <ul className="flex flex-col gap-4">
-          <li>
-            <Link href="/about" className="hover:text-primary">
-              About
+        <Link href="/overview" className="hover:text-primary">
+              Overview
             </Link>
-          </li>
           <li>
             <Link href="/deposit" className="hover:text-primary">
               Deposits
@@ -24,9 +22,7 @@ const Home: NextPage = () => {
             </Link>
           </li>
           <li>
-            <Link href="/overview" className="hover:text-primary">
-              Overview
-            </Link>
+          
           </li>
         </ul>
       </div>
@@ -37,21 +33,7 @@ const Home: NextPage = () => {
           </h1>
         </div>
         <div className="container mx-auto px-4 py-8">
-          {/* <h1 className="text-3xl font-bold text-center mb-4"></h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div className="card bg-base-200 shadow-xl p-4">
-              <h2 className="card-title">Section 1</h2>
-              <p>Content for section 1...</p>
-            </div>
-            <div className="card bg-base-200 shadow-xl p-4">
-              <h2 className="card-title">Section 2</h2>
-              <p>Content for section 2...</p>
-            </div>
-            <div className="card bg-base-200 shadow-xl p-4">
-              <h2 className="card-title">Section 3</h2>
-              <p>Content for section 3...</p>
-            </div>
-          </div> */}
+        
           <footer className="text-center mt-8"></footer>
         </div>
       </div>
