@@ -1,9 +1,13 @@
 // pages/dashboard.tsx
-import React from 'react';
-import Dashboard from '../../../components/Dashboard';
+import type { NextPage } from 'next';
+import Dashboard from './Dashboard';
 
-const DashboardPage = () => {
-  return <Dashboard />;
-}
+const DashboardPage: NextPage = () => {
+  return (
+    <div>
+      <Dashboard />
+    </div>
+  );
+};
 
 export default DashboardPage;
