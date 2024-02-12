@@ -2,6 +2,7 @@ import "@rainbow-me/rainbowkit/styles.css";
 import { Metadata } from "next";
 import { ScaffoldEthAppWithProviders } from "~~/components/ScaffoldEthAppWithProviders";
 import "~~/styles/globals.css";
+import Menu from "~~/components/Menu";
 
 const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL
   ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
     default: "Alimon",
-    template: "%s | Alimon",
+    template: "%s | Scaffold-ETH 2",
   },
   description: "Built with 🏗 Scaffold-ETH 2",
   openGraph: {
@@ -40,6 +41,8 @@ export const metadata: Metadata = {
     icon: [{ url: "/favicon.png", sizes: "32x32", type: "image/png" }],
   },
 };
+
+
 
 const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
   return (
