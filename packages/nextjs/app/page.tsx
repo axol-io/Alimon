@@ -8,17 +8,32 @@ const Home: NextPage = () => {
       <div className="w-64 bg-base-200 p-5">
         <h2 className="text-xl font-bold mb-5">Menu</h2>
         <ul className="flex flex-col gap-4">
-          {/* Updated Link usage */}
-          <li><Link href="/About" className="hover:text-primary">About</Link></li>
-          <li><Link href="/Deposit" className="hover:text-primary">Deposit</Link></li>
-          <li><Link href="/Pool" className="hover:text-primary">Pool</Link></li>
-          <li><Link href="/Overview" className="hover:text-primary">Overview</Link></li>
+          <li>
+            <Link href="/About" className="hover:text-primary">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link href="/Deposit" className="hover:text-primary">
+              Deposit
+            </Link>
+          </li>
+          <li>
+            <Link href="/Pool" className="hover:text-primary">
+              Pool
+            </Link>
+          </li>
+          <li>
+            <Link href="/Overview" className="hover:text-primary">
+              Overview
+            </Link>
+          </li>
         </ul>
       </div>
       <div className="flex-grow">
         <div className="px-5 pt-10">
           <h1 className="text-center mb-8">
-            <span className="block text-2xl mb-2">Alimon branch test</span>
+            <span className="block text-2xl mb-2">Alimon</span>
           </h1>
         </div>
         <div className="container mx-auto px-4 py-8">
@@ -37,8 +52,7 @@ const Home: NextPage = () => {
               <p>Content for section 3...</p>
             </div>
           </div> */}
-          <footer className="text-center mt-8">
-          </footer>
+          <footer className="text-center mt-8"></footer>
         </div>
       </div>
     </div>

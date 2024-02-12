@@ -1,4 +1,3 @@
-// pages/option1.tsx
 import type { NextPage } from 'next';
 import Link from 'next/link';
 
