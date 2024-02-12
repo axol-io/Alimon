@@ -9,22 +9,22 @@ const Home: NextPage = () => {
         <h2 className="text-xl font-bold mb-5">Menu</h2>
         <ul className="flex flex-col gap-4">
           <li>
-            <Link href="/About" className="hover:text-primary">
+            <Link href="/about" className="hover:text-primary">
               About
             </Link>
           </li>
           <li>
-            <Link href="/Deposit" className="hover:text-primary">
-              Deposit
+            <Link href="/deposit" className="hover:text-primary">
+              Deposits
             </Link>
           </li>
           <li>
-            <Link href="/Pool" className="hover:text-primary">
+            <Link href="/pool" className="hover:text-primary">
               Pool
             </Link>
           </li>
           <li>
-            <Link href="/Overview" className="hover:text-primary">
+            <Link href="/overview" className="hover:text-primary">
               Overview
             </Link>
           </li>
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
           </h1>
         </div>
         <div className="container mx-auto px-4 py-8">
-          <h1 className="text-3xl font-bold text-center mb-4"></h1>
+          {/* <h1 className="text-3xl font-bold text-center mb-4"></h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="card bg-base-200 shadow-xl p-4">
               <h2 className="card-title">Section 1</h2>
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
               <h2 className="card-title">Section 3</h2>
               <p>Content for section 3...</p>
             </div>
-          </div>
+          </div> */}
           <footer className="text-center mt-8"></footer>
         </div>
       </div>
