@@ -40,19 +40,19 @@ module.exports = {
       },
       {
         scaffoldEthDark: {
-          primary: "11140C",
-          "primary-content": "FCFC03",
+          primary: "#11140C", // Corrected: Added "#" in front of the hex value
+          "primary-content": "#FCFC03",
           secondary: "#323f61",
-          "secondary-content": "FCFC03",
+          "secondary-content": "#FCFC03",
           accent: "#11140C",
-          "accent-content": "FCFC03",
+          "accent-content": "#FCFC03",
           neutral: "#11140C",
-          "neutral-content": "FCFC03",
-          "base-100": "#385183",
+          "neutral-content": "#FCFC03",
+          "base-100": "#11140C", // Ensuring background uses #11140C
           "base-200": "#2A3655",
           "base-300": "#212638",
-          "base-content": "FCFC03",
-          info: "FCFC03",
+          "base-content": "#FCFC03",
+          info: "#FCFC03",
           success: "#34EEB6",
           warning: "#FFCF72",
           error: "#FF8863",
@@ -84,3 +84,4 @@ module.exports = {
     },
   },
 };
+
