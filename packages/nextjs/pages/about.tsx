@@ -1,11 +1,12 @@
+// pages/about.tsx
 import type { NextPage } from 'next';
 import Link from 'next/link';
 
-const Option1Page: NextPage = () => {
+const AboutPage: NextPage = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold text-center">Option 1 Page</h1>
-      <p className="text-center mt-4">This is the content for Option 1.</p>
+      <h1 className="text-3xl font-bold text-center">About Page</h1>
+      <p className="text-center mt-4">This is the content for the About page.</p>
       <div className="text-center mt-4">
         <Link href="/">
           <a className="text-blue-500">Go back to Home</a>
@@ -15,5 +16,5 @@ const Option1Page: NextPage = () => {
   );
 };
 
-export default Option1Page;
+export default AboutPage;
 
