@@ -8,19 +8,19 @@ module.exports = {
     themes: [
       {
         scaffoldEth: {
-          primary: "#93BBFB",
+          primary: "#75835D",  //Camo 400
           "primary-content": "#212638",
-          secondary: "#DAE8FF",
+          secondary: "#FCFDC7", //Yellow 100
           "secondary-content": "#212638",
-          accent: "#93BBFB",
+          accent: "#FCFC03", //Yellow 300
           "accent-content": "#212638",
-          neutral: "#212638",
+          neutral: "#ffffff",
           "neutral-content": "#ffffff",
-          "base-100": "#ffffff",
+          "base-100": "#9BA885", //Camo 300
           "base-200": "#f4f8ff",
-          "base-300": "#DAE8FF",
+          "base-300": "#75835D",
           "base-content": "#212638",
-          info: "#93BBFB",
+          info: "#11140C", //Camo 700
           success: "#34EEB6",
           warning: "#FFCF72",
           error: "#FF8863",
@@ -40,19 +40,19 @@ module.exports = {
       },
       {
         scaffoldEthDark: {
-          primary: "#11140C", // Corrected: Added "#" in front of the hex value
+          primary: "#75835D",  //Camo 400
           "primary-content": "#FCFC03",
-          secondary: "#323f61",
+          secondary: "#FCFDC7", //Yellow 100
           "secondary-content": "#FCFC03",
-          accent: "#11140C",
+          accent: "#FCFC03", //Yellow 300
           "accent-content": "#FCFC03",
-          neutral: "#11140C",
+          neutral: "#FFFFFF", //white
           "neutral-content": "#FCFC03",
-          "base-100": "#11140C", // Ensuring background uses #11140C
-          "base-200": "#2A3655",
+          "base-100": "#000000", // Ensuring background uses #000000
+          "base-200": "#11140C",
           "base-300": "#212638",
-          "base-content": "#FCFC03",
-          info: "#FCFC03",
+          "base-content": "#75835D",
+          info: "#9BA885", //Camo 300
           success: "#34EEB6",
           warning: "#FFCF72",
           error: "#FF8863",
