@@ -21,7 +21,7 @@ const AboutPage: NextPage = () => {
             </div>
             <div className="card bg-base-200 shadow-xl p-4">
               <h2 className="card-title">Section 3</h2>
-              <p>Content for section 3...</p>
+              <p>Content for section 3....</p>
             </div>
           </div>
       </div>
