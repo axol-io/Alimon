@@ -1,6 +1,11 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+/* @import "../public/fonts/ChakraPetch-Regular.ttf";
+@import "../public/fonts/ChakraPetch-Medium.ttf";
+@import "../public/fonts/ChakraPetch-Bold.ttf";
+@import "../public/fonts/ChakraPetch-SemiBold.ttf";
+@import "../public/fonts/ChakraPetch-Light.ttf"; */
 
 :root,
 [data-theme] {
@@ -19,12 +24,44 @@ h4 {
   line-height: 1;
 }
 
+h1 {
+  color: #FCFDC7;
+}
+
+h2 {
+
+}
+
 p {
+  /* font-family: 'ChakraPetraRegular', sans-serif;
+  font-size: 1.25rem; */
   margin: 1rem 0;
 }
 
 .btn {
-  @apply shadow-md;
+  /* @apply shadow-md; */
+  color: #000000;
+  background-color: #FCFC03;
+   /* font-family: 'ChakraPetraRegular', sans-serif;
+  font-size: 1rem; */
+}
+
+.btn:hover {
+  background-color: #FFFFFF;
+}
+
+.btn.btn-blast {
+  color: #000000;
+  background-color: #FCFC03;
+   /* font-family: 'ChakraPetraRegular', sans-serif;
+  font-size: 1rem; */
+  /* clip-path: polygon(0% 100%, 0 40%, 7% 0, 100% 0, 100% 60%, 93% 100%); */
+  clip-path: polygon(0% 100%, 0 50%, 10% 0, 100% 0, 100% 50%, 90% 100%);
+  border-radius: 0.5rem;
+}
+
+.btn.btn-blast:hover {
+  background-color: #FFFFFF;
 }
 
 .btn.btn-ghost {
