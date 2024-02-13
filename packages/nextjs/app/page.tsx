@@ -22,6 +22,11 @@ const Home: NextPage = () => {
             </Link>
           </li>
           <li>
+            <Link href="/swap" className="hover:text-primary">
+              Swap
+            </Link>
+          </li>
+          <li>
           
           </li>
         </ul>
