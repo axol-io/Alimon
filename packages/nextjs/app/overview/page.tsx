@@ -16,29 +16,41 @@ const Overview: NextPage = () => {
             </Link> */}
           {/* </div> */}
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 my-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 my-8">
             <div>
               <div className="card bg-base-200 border-neutral border p-4">
-                <p className="card-title">ETH Deposited</p>
+                <p className="card-title">cETH Deposited</p>
                 <p className="text-7xl">XXXX</p>
               </div>
               <button className="btn btn-blast btn-wide my-4">Deposit Now</button>
             </div>
             <div>
               <div className="card bg-base-200 border-neutral border p-4">
-                <p className="card-title">ROI</p>
+                <p className="card-title">ETH Balance</p>
                 <p className="text-7xl">XXXX</p>
               </div>
             </div>
             <div>
               <div className="card bg-base-200 border-neutral border p-4">
-                <p className="card-title">ROI</p>
+                <p className="card-title">APY</p>
+                <p className="text-7xl">XXXX</p>
+              </div>
+            </div>
+            <div>
+              <div className="card bg-base-200 border-neutral border p-4">
+                <p className="card-title">fETH</p>
                 <p className="text-7xl">XXXX</p>
               </div>
             </div>
             <div>
               <div className="card bg-base-200 border-neutral border p-4">
                 <p className="card-title">Rewards this epoch</p>
+                <p className="text-7xl">XXXX</p>
+              </div>
+            </div>
+            <div>
+              <div className="card bg-base-200 border-neutral border p-4">
+                <p className="card-title">APY</p>
                 <p className="text-7xl">XXXX</p>
               </div>
               <button className="btn btn-blast btn-wide my-4">Claim Yield</button>
