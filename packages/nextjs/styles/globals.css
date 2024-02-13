@@ -26,16 +26,21 @@ h4 {
 
 h1 {
   color: #FCFDC7;
+  font-size: 2.25rem;
+  font-weight: bold;
 }
 
 h2 {
-
+  color: #FCFDC7;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 p {
   /* font-family: 'ChakraPetraRegular', sans-serif;
   font-size: 1.25rem; */
   margin: 1rem 0;
+  color: #9BA885;
 }
 
 .btn {
