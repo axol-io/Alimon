@@ -8,31 +8,30 @@ const Home: NextPage = () => {
       <div className="w-64 bg-base-200 p-5">
         <h2 className="text-xl font-bold mb-5">Menu</h2>
         <ul className="flex flex-col gap-4">
-        <Link href="/overview" className="hover:text-primary">
-              Overview
-            </Link>
           <li>
             <Link href="/deposit" className="hover:text-primary">
-              Deposits
-            </Link>
-          </li>
-          <li>
-            <Link href="/pool" className="hover:text-primary">
-              Pool
+              01.  Deposit
             </Link>
           </li>
           <li>
             <Link href="/swap" className="hover:text-primary">
-              Swap
+              02.  Swap
             </Link>
           </li>
           <li>
-          
+            <Link href="/pool" className="hover:text-primary">
+              03.  Pool
+            </Link>
+          </li>
+          <li>
+            <Link href="/overview" className="hover:text-primary">
+              04.  Overview
+            </Link>
           </li>
         </ul>
       </div>
       <div className="flex-grow">
-        <div className="px-5 pt-10">
+        <div className="px-10 pt-10">
           <h1 className="text-center mb-8">
             <span className="block text-2xl mb-2">Alimon</span>
           </h1>
