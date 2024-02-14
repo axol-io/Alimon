@@ -14,12 +14,17 @@ const Swap: NextPage = () => {
 
             <div className="py-8">
 
-              <div className="grid grid-cols-1 gap-12 my-4 mx-auto max-w-lg">
-                <div className="card bg-base-200 border-neutral border p-4">
-                  <p className="card-title">Pay</p>
-                  <div className="flex flex-row justify-between items-end mb-4">
-                    <input type="text" placeholder="XXXX" className="input input-lg bg-transparent text-info rounded-none pl-0 text-7xl w-full max-w-sm" />
-                    <p className="text-bold">ETH</p>
+              <div className="grid grid-cols-1 gap-4 my-4 mx-auto max-w-md">
+                <div>
+                  <div className="card bg-base-200 border-neutral border p-4">
+                    <p className="card-title">Pay</p>
+                    <div className="flex flex-row justify-between items-end mb-4">
+                      <input type="text" placeholder="XXXX" className="input input-lg bg-transparent text-info rounded-none pl-0 text-7xl w-full max-w-sm" />
+                      <p className="text-bold">ETH</p>
+                    </div>
+                  </div>
+                  <div className="leading-none">
+                    <figure className="w-full"><img src="./swap1.png" className="w-6 my-0 mx-auto" /></figure>
                   </div>
                 </div>
 
@@ -28,9 +33,8 @@ const Swap: NextPage = () => {
                 </div>
 
                 <div>
-                  <div className="text-center leading-none">
-                    {/* <Image alt="pay swap" className="" fill src="/public/swap1.png" /> */}
-                    <img src="../public/swap1.png" alt="" />
+                  <div className="leading-none">
+                    <figure className="w-full"><img src="./swap2.png" className="w-6 my-0 mx-auto" /></figure>
                   </div>
                   <div className="card bg-base-200 border-neutral border border-b-0 rounded-b-none p-4">
                     <p className="card-title">Receive</p>
@@ -44,7 +48,7 @@ const Swap: NextPage = () => {
               </div>
 
               <div className="text-center">
-                 <p className="mt-4 mx-auto max-w-lg text-secondary text-sm">With this transaction, you are locking in the current yield rate and buying for next month’s yield.</p>
+                 <p className="mt-4 mx-auto max-w-md text-secondary text-sm">With this transaction, you are locking in the current yield rate and buying for next month’s yield.</p>
                 <button className="btn btn-blast btn-wide my-4">Confirm swap</button>
               </div>
 
