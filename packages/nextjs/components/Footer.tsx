@@ -21,10 +21,10 @@ export const Footer = () => {
   const progressValue = 50; // 50%
 
   return (
-    <div className="min-h-0 py-5 px-1 mb-11 lg:mb-0">
+    <div className="min-h-0 py-5 px-1 mb-11 lg:mb-0 bg-base-100">
       <div>
-        <div className="fixed flex justify-between items-center w-full z-10 p-4 bottom-0 left-0 pointer-events-none">
-          <div className="flex flex-col md:flex-row gap-2 pointer-events-auto items-center">
+        <div className="fixed flex justify-between items-center w-full z-10 p-4 bottom-0 left-0 pointer-events-none bg-transparent">
+          <div className="flex flex-col md:flex-row gap-2 pointer-events-auto items-center w-full justify-center">
             {nativeCurrencyPrice > 0 && (
               <div>
                 <div className="btn btn-primary btn-sm font-normal gap-1 cursor-auto">
@@ -35,16 +35,17 @@ export const Footer = () => {
             )}
             {isLocalNetwork && (
               <>
-                <Faucet />
+                {/* <Faucet />
                 <Link href="/blockexplorer" passHref className="btn btn-primary btn-sm font-normal gap-1">
                   <MagnifyingGlassIcon className="h-4 w-4" />
                   <span>Block Explorer</span>
-                </Link>
+                </Link> */}
+
                 {/* Adjusted Progress Bar with "Maturity Rate" text */}
-<div className="w-72 h-8 bg-gray-200 rounded-full overflow-hidden ml-2 flex items-center relative"> 
-  <div className="bg-[#FCFC03] h-full rounded-full" style={{ width: `${progressValue}%` }}></div>
-  <span className="absolute w-full text-center text-black font-medium">Maturity Rate</span>
-</div>
+                <div className="w-72 h-5 bg-gray-200 rounded-full overflow-hidden ml-2 flex items-center relative"> 
+                  <div className="bg-[#FCFC03] h-full rounded-full" style={{ width: `${progressValue}%` }}></div>
+                  <span className="absolute w-full text-center text-base-100 text-sm font-medium">Maturity Rate</span>
+                </div>
 
               </>
             )}
