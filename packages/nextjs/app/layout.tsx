@@ -52,33 +52,33 @@ const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
           {`
             @font-face {
               font-family: 'ChakraPetchRegular';
-              src: url('../fonts/ChakraPetch-Regular.ttf') format('truetype'); /* Path to regular font file */
+              src: url('../fonts/ChakraPetch-Regular.ttf') format('truetype');
               font-weight: normal;
             }
-  
+            
             @font-face {
               font-family: 'ChakraPetchMedium';
-              src: url('../fonts/ChakraPetch-Medium.ttf') format('truetype'); /* Path to regular font file */
-              font-weight: 300;
+              src: url('../fonts/ChakraPetch-Medium.ttf') format('truetype');
+              font-weight: 300; /* Numeric value for medium weight */
             }
-  
+            
             @font-face {
               font-family: 'ChakraPetchBold';
-              src: url('../fonts/ChakraPetch-Bold.ttf') format('truetype'); /* Path to bold font file */
-              font-weight: bold; /* Specify the font weight */
+              src: url('../fonts/ChakraPetch-Bold.ttf') format('truetype');
+              font-weight: bold;
             }
-  
+            
             @font-face {
               font-family: 'ChakraPetchSemiBold';
-              src: url('../fonts/ChakraPetch-SemiBold.ttf') format('truetype'); /* Path to italic font file */
-              font-style: 500; /* Specify the font style */
+              src: url('../fonts/ChakraPetch-SemiBold.ttf') format('truetype');
+              font-weight: 500; /* Numeric value for semi-bold weight */
             }
-  
+            
             @font-face {
               font-family: 'ChakraPetchLight';
-              src: url('../fonts/ChakraPetch-Light.ttf') format('truetype'); /* Path to italic font file */
-              font-style: 200; /* Specify the font style */
-            }
+              src: url('../fonts/ChakraPetch-Light.ttf') format('truetype');
+              font-weight: 200; /* Numeric value for light weight */
+            }            
           `}
         </style>
       </head>

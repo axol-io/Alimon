@@ -42,9 +42,9 @@ export const Footer = () => {
                 </Link> */}
 
                 {/* Adjusted Progress Bar with "Maturity Rate" text */}
-                <div className="w-72 h-5 bg-gray-200 rounded-full overflow-hidden ml-2 flex items-center relative"> 
+                <div className="maturity w-72 h-5 bg-gray-200 rounded-full overflow-hidden ml-2 flex items-center relative"> 
                   <div className="bg-[#FCFC03] h-full rounded-full" style={{ width: `${progressValue}%` }}></div>
-                  <span className="absolute w-full text-center text-base-100 text-sm font-medium">Maturity Rate</span>
+                  <span className="absolute w-full text-center text-base-100 text-sm">Maturity Rate</span>
                 </div>
 
               </>

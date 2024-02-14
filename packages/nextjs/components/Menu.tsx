@@ -10,22 +10,22 @@ const Menu: NextPage = () => {
           {/* <h2 className="text-xl font-bold mb-5">Menu</h2> */}
           <ul className="flex flex-col pt-10 gap-4">
             <li>
-              <Link href="/deposit" className="hover:text-primary">
+              <Link href="/deposit" className="hover:text-white">
                 01.  Deposit
               </Link>
             </li>
             <li>
-              <Link href="/swap" className="hover:text-primary">
+              <Link href="/swap" className="hover:text-white">
                 02.  Swap
               </Link>
             </li>
             <li>
-              <Link href="/pool" className="hover:text-primary">
+              <Link href="/pool" className="hover:text-white">
                 03.  Pool
               </Link>
             </li>
             <li>
-              <Link href="/overview" className="hover:text-primary">
+              <Link href="/overview" className="hover:text-white">
                 04.  Overview
               </Link>
             </li>

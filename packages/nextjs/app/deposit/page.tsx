@@ -34,7 +34,7 @@ const Deposits: NextPage = () => {
               <div className="card bg-base-300 border border-neutral border-t-0 rounded-t-none px-4 py-6">
                 <div className="my-0 mx-auto text-center">
                   <div className="flex flex-row bg-white w-full rounded-full pr-4">
-                    <input type="text" placeholder="ETH amount" className="input bg-white w-full max-w-xs" />
+                    <input type="number" placeholder="ETH amount" className="input bg-white w-full max-w-xs" />
                     <button className="btn btn-sm rounded-md border-0 my-2">Max</button>
                   </div>
                   <button className="btn btn-blast btn-wide my-4">Deposit Now</button>

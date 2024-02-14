@@ -1,11 +1,38 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-/* @import "../public/fonts/ChakraPetch-Regular.ttf";
-@import "../public/fonts/ChakraPetch-Medium.ttf";
-@import "../public/fonts/ChakraPetch-Bold.ttf";
-@import "../public/fonts/ChakraPetch-SemiBold.ttf";
-@import "../public/fonts/ChakraPetch-Light.ttf"; */
+
+
+@font-face {
+  font-family: 'ChakraPetraRegular';
+  src: url('/fonts/ChakraPetch-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ChakraPetraMedium';
+  src: url('/fonts/ChakraPetch-Medium.ttf') format('truetype');
+  font-weight: 500; /* Numeric value for medium weight */
+}
+
+@font-face {
+  font-family: 'ChakraPetraBold';
+  src: url('/fonts/ChakraPetch-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'ChakraPetraSemiBold';
+  src: url('/fonts/ChakraPetch-SemiBold.ttf') format('truetype');
+  font-weight: 600; /* Numeric value for semi-bold weight */
+}
+
+@font-face {
+  font-family: 'ChakraPetraLight';
+  src: url('/fonts/ChakraPetch-Light.ttf') format('truetype');
+  font-weight: 300; /* Numeric value for light weight */
+}
+
+
 
 :root,
 [data-theme] {
@@ -14,6 +41,7 @@
 
 body {
   min-height: 100vh;
+  font-family: 'ChakraPetraRegular', sans-serif;
 }
 
 h1,
@@ -22,6 +50,7 @@ h3,
 h4 {
   margin-bottom: 0.5rem;
   line-height: 1;
+  font-family: 'ChakraPetraBold', sans-serif;
 }
 
 h1 {
@@ -37,18 +66,27 @@ h2 {
 }
 
 p {
-  /* font-family: 'ChakraPetraRegular', sans-serif;
-  font-size: 1.25rem; */
+  font-family: 'ChakraPetraRegular', sans-serif;
+  font-size: 1.25rem;
   margin: 1rem 0;
   color: #9BA885;
+}
+
+a {
+  font-family: 'ChakraPetraSemiBold', sans-serif;
+  font-size: 1rem;
+}
+
+a:hover {
+  color: #FFFFFF;
 }
 
 .btn {
   /* @apply shadow-md; */
   color: #000000;
   background-color: #FCFC03;
-   /* font-family: 'ChakraPetraRegular', sans-serif;
-  font-size: 1rem; */
+  font-family: 'ChakraPetraSemiBold', sans-serif;
+  font-size: 1rem;
 }
 
 .btn:hover {
@@ -58,9 +96,8 @@ p {
 .btn.btn-blast {
   color: #000000;
   background-color: #FCFC03;
-   /* font-family: 'ChakraPetraRegular', sans-serif;
-  font-size: 1rem; */
-  /* clip-path: polygon(0% 100%, 0 40%, 7% 0, 100% 0, 100% 60%, 93% 100%); */
+  font-family: 'ChakraPetraSemiBold', sans-serif;
+  font-size: 1rem;
   clip-path: polygon(0% 100%, 0 50%, 10% 0, 100% 0, 100% 50%, 90% 100%);
   border-radius: 0.5rem;
 }
@@ -71,4 +108,9 @@ p {
 
 .btn.btn-ghost {
   @apply shadow-none;
+}
+
+.maturity {
+  @apply shadow-lg;
+  font-family: 'ChakraPetraSemiBold', sans-serif;
 }
