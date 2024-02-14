@@ -19,7 +19,10 @@ const Deposits: NextPage = () => {
           <div className="py-8">
             <div className="grid grid-cols-1 my-0 mx-auto max-w-xl">
 
-
+            {/* <div className="join max-w-md rounded-2xl shadow-sm rounded-b-none">
+              <input className="join-item btn w-1/2" type="radio" name="options" aria-label="Stake" checked/>
+              <input className="join-item btn w-1/2" type="radio" name="options" aria-label="Unstake" />
+            </div> */}
 
             <div className="inline-flex max-w-md rounded-lg shadow-sm rounded-b-none" role="group">
               <button type="button" className="inline-flex justify-center px-4 py-3 w-full rounded-s-2xl rounded-bl-none text-md border dark:border-neutral dark:text-primary dark:hover:text-white dark:hover:bg-neutral dark:focus:text-secondary dark:focus:bg-base-300">

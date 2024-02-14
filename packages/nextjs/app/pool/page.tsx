@@ -52,8 +52,8 @@ const AboutPage: NextPage = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 my-8">
                 <div className="card bg-base-200 border-neutral border p-4">
                   <div>
-                    <p className="text-right m-0">ETH/fETH</p>
-                    <p className="text-right text-sm mt-0">Pool #321</p>
+                    <p className="m-0">ETH/fETH</p>
+                    <p className="text-sm mt-0">Pool #321</p>
                     <div className="overflow-x-auto">
                       <table className="table">
                         <thead></thead>
@@ -68,18 +68,27 @@ const AboutPage: NextPage = () => {
                             <th>TVL</th>
                             <td className="text-right">17.9k</td>
                           </tr>
-                          {/* row 3 */}
-                          <tr className="text-info">
-                            <th>My Liquidity</th>
-                            <td className="text-right">$0</td>
-                          </tr>
                         </tbody>
                       </table>
                     </div>
                   </div>
                 </div>
                 <div className="card bg-base-200 border-neutral border p-4">
-                  <p className="card-title">XXXX</p>
+                  <p className="card-title m-0">My Liquidity</p>
+                  <div className="join">
+                    <div>
+                      <div>
+                        <input className="input join-item text-sm" placeholder="Liquidity"/>
+                      </div>
+                    </div>
+                    <select className="select select-bordered border-y-0 border-r-0 join-item">
+                      <option selected>Add</option>
+                      <option>Remove</option>
+                    </select>
+                    <div className="indicator">
+                      <button className="btn join-item text-sm">Run</button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
