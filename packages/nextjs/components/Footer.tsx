@@ -24,7 +24,10 @@ export const Footer = () => {
     <div className="min-h-0 py-5 px-1 mb-11 lg:mb-0 bg-base-100">
       <div>
         <div className="fixed flex justify-between w-full z-10 p-4 bottom-0 left-0 pointer-events-none bg-transparent">
-          <div className="flex flex-col md:flex-row gap-2 pointer-events-auto items-center w-full justify-end pr-4">
+          <div className="flex flex-col md:flex-row gap-2 pointer-events-auto items-center w-full justify-between pr-4">           
+            <div className="sm:order-2 order-1">
+              <img src="/built-on-blast-logo.svg" className="w-16 md:w-28 pt-2 my-0" />
+            </div>
             {nativeCurrencyPrice > 0 && (
               <div>
                 <div className="btn btn-primary btn-sm font-normal gap-1 cursor-auto">
@@ -42,7 +45,7 @@ export const Footer = () => {
                 </Link> */}
 
                 {/* Adjusted Progress Bar with "Maturity Rate" text */}
-                <div className="maturity w-72 h-5 bg-gray-200 rounded-full overflow-hidden ml-2 flex relative"> 
+                <div className="maturity sm:order-1 md:order-2 w-72 h-5 bg-gray-200 rounded-full overflow-hidden ml-2 flex relative"> 
                   <div className="bg-[#FCFC03] h-full rounded-full" style={{ width: `${progressValue}%` }}></div>
                   <span className="absolute w-full text-center text-base-100 text-sm">Maturity Rate</span>
                 </div>

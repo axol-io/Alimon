@@ -5,9 +5,8 @@ const Home: NextPage = () => {
   return (
     <div className="flex flex-row min-h-screen bg-base-100">
       {/* Sidebar */}
-      <div className="w-64 bg-base-200 p-5">
-        <h2 className="text-xl font-bold mb-5">Menu</h2>
-        <ul className="flex flex-col gap-4">
+      <div className="w-60 bg-base-100 p-5 border-neutral border-r">
+        <ul className="flex flex-col pt-5 gap-4">
           <li>
             <Link href="/deposit" className="hover:text-primary">
               01.  Deposit
