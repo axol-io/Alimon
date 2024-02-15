@@ -25,7 +25,7 @@ const Swap: NextPage = () => {
                   </div>
                 </div>
                 <div className="text-center">
-                  <button className="btn btn-blast btn-sm my-2 text-2xl">&darr;</button>
+                  <button className="btn btn-blast btn-sm my-2 text-2xl animate-bounce">&darr;</button>
                 </div>
                 <div>
                   <div className="leading-none">
