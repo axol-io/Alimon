@@ -44,7 +44,7 @@ const Swap: NextPage = () => {
                 </div>
               </div>
               <div className="text-center">
-                 <p className="mt-4 mx-auto max-w-md text-secondary text-sm">With this transaction, you are locking in the current yield rate and buying for next month’s yield.</p>
+                <p className="mt-4 mx-auto max-w-md text-secondary text-sm">With this transaction, you are locking in the current yield rate and buying for next month’s yield.</p>
                 <button className="btn btn-blast btn-wide my-4">Confirm swap</button>
               </div>
             </div>

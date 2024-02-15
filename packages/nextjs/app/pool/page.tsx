@@ -49,13 +49,13 @@ const AboutPage: NextPage = () => {
 
               <h2 className="pt-8">Your Pools</h2>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 my-8">
-                <div className="card bg-base-200 border-neutral border p-4">
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-12 my-8">
+                <div className="card sm:col-span-12 md:col-span-4 bg-base-200 border-neutral border p-4">
                   <div>
-                    <p className="m-0">ETH/fETH</p>
-                    <p className="text-sm mt-0">Pool #321</p>
+                    <p className="m-0">fETH</p>
+                    <p className="text-sm mt-0">Pool #1</p>
                     <div className="overflow-x-auto">
-                      <table className="table">
+                      <table className="table max-w-xs">
                         <thead></thead>
                         <tbody>
                           {/* row 1 */}
@@ -73,12 +73,12 @@ const AboutPage: NextPage = () => {
                     </div>
                   </div>
                 </div>
-                <div className="card bg-base-200 border-neutral border p-4">
+                <div className="card sm:col-span-12 md:col-span-8 bg-base-200 border-neutral border p-4">
                   <p className="card-title m-0">My Liquidity</p>
-                  <div className="join">
+                  <div className="join mx-auto py-4">
                     <div>
                       <div>
-                        <input className="input join-item text-sm" placeholder="Liquidity"/>
+                        <input className="input join-item text-sm" placeholder="Liquidity" type="number" />
                       </div>
                     </div>
                     <select className="select select-bordered border-y-0 border-r-0 join-item">

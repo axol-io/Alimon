@@ -65,11 +65,11 @@ const Deposits: NextPage = () => {
                 
                 <div className="flex flex-row justify-between items-end mx-auto w-full max-w-sm">
                   <p className="text-secondary text-base">You will gain</p>
-                  <p className="text-secondary text-base">cETH</p>
+                  <p className="text-secondary text-base">XX cETH</p>
                 </div>
                 <div className="flex flex-row justify-between items-end mx-auto w-full max-w-sm">
                   <p className="text-secondary text-base">You will gain</p>
-                  <p className="text-secondary text-base">fETH</p>
+                  <p className="text-secondary text-base">XX fETH</p>
                 </div>
               </div>
             </div>

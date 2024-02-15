@@ -6,26 +6,26 @@ const Menu: NextPage = () => {
       <div className="flex flex-row min-h-screen bg-base-100">
 
         {/* Menu */}
-        <div className="w-64 bg-base-100 p-5 border-neutral border-r">
+        <div className="w-60 bg-base-100 p-5 border-neutral border-r">
           {/* <h2 className="text-xl font-bold mb-5">Menu</h2> */}
-          <ul className="flex flex-col pt-10 gap-4">
+          <ul className="flex flex-col pt-5 gap-4">
             <li>
-              <Link href="/deposit" className="hover:text-white">
+              <Link href="/deposit" className="hover:text-white focus:text-accent">
                 01.  Deposit
               </Link>
             </li>
             <li>
-              <Link href="/swap" className="hover:text-white">
+              <Link href="/swap" className="hover:text-white focus:text-accent">
                 02.  Swap
               </Link>
             </li>
             <li>
-              <Link href="/pool" className="hover:text-white">
+              <Link href="/pool" className="hover:text-white focus:text-accent">
                 03.  Pool
               </Link>
             </li>
             <li>
-              <Link href="/overview" className="hover:text-white">
+              <Link href="/overview" className="hover:text-white focus:text-accent">
                 04.  Overview
               </Link>
             </li>
