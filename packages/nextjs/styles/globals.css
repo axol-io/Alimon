@@ -2,7 +2,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-
+/* --Custom font from Blast-- */
 @font-face {
   font-family: 'ChakraPetraRegular';
   src: url('/fonts/ChakraPetch-Regular.ttf') format('truetype');
@@ -31,7 +31,7 @@
   src: url('/fonts/ChakraPetch-Light.ttf') format('truetype');
   font-weight: 300; /* Numeric value for light weight */
 }
-
+/* -- */
 
 
 :root,
@@ -110,11 +110,13 @@ a:hover {
   @apply shadow-none;
 }
 
+/* Maturity Bar in Footer */
 .maturity {
   @apply shadow-lg;
   font-family: 'ChakraPetraSemiBold', sans-serif;
 }
 
+/* Text box shape on Main/Home page */
 .splash {
   background-color: #11140C;
   clip-path: polygon(0% 100%, 0 22%, 8% 7%, 35% 7%, 40% 0, 100% 0%, 100% 85%, 92% 100%);

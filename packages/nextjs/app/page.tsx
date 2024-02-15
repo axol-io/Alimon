@@ -4,7 +4,7 @@ import type { NextPage } from "next";
 const Home: NextPage = () => {
   return (
     <div className="flex flex-row min-h-screen bg-base-100">
-      {/* Sidebar */}
+      {/* Menu Sidebar */}
       <div className="w-60 bg-base-100 p-5 border-neutral border-r">
         <ul className="flex flex-col pt-5 gap-4">
           <li>
@@ -31,6 +31,8 @@ const Home: NextPage = () => {
       </div>
 
       <div className="flex-grow pt-4">
+
+        {/* Top graphic */}
         <div className="container mx-auto px-8 pt-8 pb-6">
           <div className="w-full">
             <svg className="w-full" fill="none" height="15" width="1177" xmlns="http://www.w3.org/2000/svg">
@@ -48,6 +50,8 @@ const Home: NextPage = () => {
             </svg>
           </div>
         </div>
+
+        {/* Main content */}
         <div className="splash max-w-6xl">
           <div className="px-10 pt-10 pb-8">
             <h1 className="text-center mb-8">
@@ -66,6 +70,8 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
+
+        {/* Bottom graphic */}
         <div className="container mx-auto px-8 py-8">
           <div className="w-full">
             <svg className="w-full" fill="none" height="15" width="1177" xmlns="http://www.w3.org/2000/svg">

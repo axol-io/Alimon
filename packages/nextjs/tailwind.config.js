@@ -6,38 +6,6 @@ module.exports = {
   // DaisyUI theme colors
   daisyui: {
     themes: [
-      // { // hide Light Mode settings
-      //   scaffoldEth: {
-      //     primary: "#75835D",  //Camo 400
-      //     "primary-content": "#212638",
-      //     secondary: "#FCFDC7", //Yellow 100
-      //     "secondary-content": "#212638",
-      //     accent: "#FCFC03", //Yellow 300
-      //     "accent-content": "#212638",
-      //     neutral: "#ffffff",
-      //     "neutral-content": "#ffffff",
-      //     "base-100": "#9BA885", //Camo 300
-      //     "base-200": "#f4f8ff",
-      //     "base-300": "#75835D",
-      //     "base-content": "#212638",
-      //     info: "#11140C", //Camo 700
-      //     success: "#34EEB6",
-      //     warning: "#FFCF72",
-      //     error: "#FF8863",
-
-      //     "--rounded-btn": "9999rem",
-
-      //     ".tooltip": {
-      //       "--tooltip-tail": "6px",
-      //     },
-      //     ".link": {
-      //       textUnderlineOffset: "2px",
-      //     },
-      //     ".link:hover": {
-      //       opacity: "80%",
-      //     },
-      //   },
-      // },
       { // Dark Mode settings
         scaffoldEthDark: {
           primary: "#75835D",  //Camo 400 
